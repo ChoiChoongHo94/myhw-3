@@ -20,7 +20,7 @@ struct metadata
   char data[1];
 };
 
-extern void *base;
+extern p_meta base;
 
 void* m_malloc(size_t size);
 void m_free(void* ptr);
